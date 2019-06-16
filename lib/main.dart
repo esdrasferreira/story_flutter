@@ -75,7 +75,7 @@ class _StoryPageState extends State<StoryPage> {
                         storyBrain.nextStory(2);
                       });
                     },
-                    color: Colors.orangeAccent,
+                    color: Colors.teal,
                     child: Text(
                       storyBrain.getChoice2(),
                       style: TextStyle(fontSize: 20.0, color: Colors.black),
